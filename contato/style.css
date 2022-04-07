@@ -1,0 +1,395 @@
+body {
+  background-color: rgb(34, 34, 34);
+  width: 100%;
+  margin: 0;
+}
+
+header {
+  background-color: rgb(20, 20, 20);
+  height: 60px;
+  display: flex;
+  flex-direction: row;
+  font-family: 'ruda-black';
+
+}
+
+aside {
+  width: 55%;
+}
+
+h1 {
+  color: rgb(213, 213, 213);
+  font-family: 'ruda-black';
+  text-align: end;
+
+}
+
+.menu-drop {
+  display: flex;
+  width: 50%;
+
+}
+
+.btn-drop {
+  position: absolute;
+  right: 20px;
+  padding: 20px;
+}
+
+button[name="drop"] {
+  border: none;
+  cursor: pointer;
+  background-color: rgb(213, 213, 213);
+  padding: 5px;
+  font-size: 20px;
+  color: rgb(20, 20, 20);
+}
+
+.drop-content {
+  display: none;
+}
+
+.drop-content a {
+  font-family: 'ruda-black';
+  color: rgb(213, 213, 213);
+  padding: 8px 10px;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.btn-drop:hover .drop-content {
+  display: block;
+}
+
+.btn-drop:hover button[name="drop"] {
+  display: none;
+  background-color: transparent;
+}
+
+.drop-content a:hover {
+  background-color: black;
+}
+
+.drop-content {
+  display: none;
+  background-color: transparent;
+  position: relative;
+
+}
+
+main {
+  padding-left: 100px;
+  padding-right: 100px;
+}
+
+.contatos {
+  padding-top: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-bottom: 60px;
+}
+
+.btn-telefone {
+  padding-right: 40px;
+  font-size: 3rem;
+  color: rgb(0, 100, 0);
+}
+
+.btn-telefone :hover {
+  color: black;
+}
+
+.btn-whatsapp {
+  padding-right: 40px;
+  font-size: 3rem;
+  color: rgb(0, 187, 45);
+}
+
+.btn-whatsapp :hover {
+  color: black;
+}
+
+.btn-instagram {
+  padding-right: 40px;
+  font-size: 3rem;
+  color: rgb(153, 51, 153);
+}
+
+.btn-instagram :hover {
+  color: black;
+}
+
+.btn-linkedin {
+  padding-right: 40px;
+  font-size: 3rem;
+  color: rgb(14, 118, 168);
+}
+
+.btn-linkedin :hover {
+  color: black;
+}
+
+.btn-github {
+  font-size: 3rem;
+  color: black;
+}
+
+.btn-github :hover {
+  color: rgb(20, 20, 20);
+}
+
+.formulario {
+  width: 100%;
+}
+
+form {
+  width: 100%;
+  min-width: 70%;
+}
+
+.nome-sobrenome {
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+}
+
+.controls {
+  width: 100%;
+  font-family: 'ruda-black';
+  color: rgb(213, 213, 213);
+  align-items: center;
+  padding: 10px;
+}
+
+
+input {
+  display: flex;
+  border: 2px solid;
+  color: black;
+  align-items: center;
+  width: 100%;
+  height: 25px;
+  padding: 5px;
+}
+
+.mail-tel {
+  width: 100%;
+  flex-direction: row;
+  display: flex;
+  padding-top: 10px;
+}
+
+.control {
+  font-family: 'ruda-black';
+  color: rgb(213, 213, 213);
+}
+
+.texto-area {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+textarea {
+  height: 180px;
+  width: 700px;
+  display: block;
+  align-items: center;
+  justify-content: center;
+  border: 2px solid;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  outline: none;
+}
+
+.btn-enviar {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 10px;
+}
+
+.btn-enviar :hover {
+  background-color: black;
+  color: rgb(213, 213, 213);
+  cursor: pointer;
+}
+
+.btn-form-send {
+  border-radius: 5px;
+  font-family: 'ruda-black';
+  border: 2px solid;
+  color: black;
+  background-color: rgb(195, 195, 195);
+}
+
+footer {
+  width: 100%;
+  height: 1.5rem;
+  margin-top: 10px;
+  bottom: 0;
+  font-size: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+  display: flex;
+  position: absolute;
+  justify-content: center;
+  align-items: center;
+  background: rgb(20, 20, 20);
+  color: rgb(213, 213, 213);
+}
+
+@media only screen and (max-width: 1024px) {
+
+  .contatos {
+    padding-top: 30px;
+    padding-bottom: 30px;
+  }
+
+  textarea {
+    height: 100px;
+    width: 500px;
+  }
+
+  .btn-enviar {
+    margin-bottom: 5px;
+  }
+
+  footer {
+    width: 100%;
+    height: 1.5rem;
+    margin-top: 10px;
+    bottom: 0;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background: rgb(20, 20, 20);
+    color: rgb(213, 213, 213);
+  }
+}
+
+@media only screen and (max-width: 425px) {
+
+  main {
+    flex-direction: column;
+  }
+
+  .nome-sobrenome {
+    flex-direction: column;
+    max-width: 250px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+
+  }
+
+  .mail-tel {
+    flex-direction: column;
+    max-width: 250px;
+    padding-left: 10px;
+    padding-right: 10px;
+    align-items: center;
+  }
+
+  textarea {
+    height: 100px;
+    width: 350px;
+  }
+
+  footer {
+    width: 100%;
+    height: 1.5rem;
+    margin-top: 10px;
+    bottom: 0;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background: rgb(20, 20, 20);
+    color: rgb(213, 213, 213);
+  }
+
+}
+
+@media only screen and (max-width: 320px) {
+
+  .btn-drop {
+    right: 5px;
+    padding: 5px;
+    top: 5px;
+  }
+
+  .btn-telefone {
+    padding-right: 20px;
+    font-size: 2rem;
+  }
+
+  .btn-whatsapp {
+    padding-right: 20px;
+    font-size: 2rem;
+  }
+
+  .btn-instagram {
+    padding-right: 20px;
+    font-size: 2rem;
+  }
+
+  .btn-linkedin {
+    padding-right: 20px;
+    font-size: 2rem;
+  }
+
+  .btn-github {
+    font-size: 2rem;
+  }
+
+  main {
+    padding: 10px;
+  }
+
+  .nome-sobrenome {
+    flex-direction: column;
+    max-width: 250px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .mail-tel {
+    flex-direction: column;
+    max-width: 250px;
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  textarea {
+    height: 50px;
+    width: 250px;
+    padding-left: 10px;
+    padding-right: 20px;
+  }
+
+  footer {
+    width: 100%;
+    height: 1.5rem;
+    margin-top: 10px;
+    bottom: 0;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    position: relative;
+    justify-content: center;
+    align-items: center;
+    background: rgb(20, 20, 20);
+    color: rgb(213, 213, 213);
+  }
+
+}
