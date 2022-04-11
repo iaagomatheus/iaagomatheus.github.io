@@ -95,22 +95,21 @@ main {
 img {
   margin-top: 7px;
   margin-left: 10px;
-  width: 500px;
-  height: 98%;
+  width: 450px;
 }
 
 .texto {
   width: 70%;
   align-items: center;
   margin-right: 60px;
-  margin-top: 90px;
+  margin-top: 30px;
 
 }
 
 p {
   color: rgb(213, 213, 213);
   font-family: Arial, Helvetica, sans-serif;
-  padding: 70px;
+  padding: 40px;
   text-align: justify;
   justify-self: center;
   font-size: 1.3rem;
@@ -177,7 +176,26 @@ footer {
   color: rgb(213, 213, 213);
 }
 
-@media only screen and (max-width: 1024px) {
+@media only screen and (mai-width: 1024px) {
+
+  footer {
+    width: 100%;
+    height: 1.5rem;
+    margin-top: 10px;
+    bottom: 0;
+    font-size: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    align-items: center;
+    background: rgb(20, 20, 20);
+    color: rgb(213, 213, 213);
+  }
+
+}
+
+@media only screen and (max-width: 1023px) {
 
   .btn-drop {
     position: absolute;
