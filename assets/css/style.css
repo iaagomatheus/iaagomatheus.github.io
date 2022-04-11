@@ -98,7 +98,7 @@ footer {
   color: rgb(213, 213, 213);
 }
 
-@media only screen and (min-width: 1025px) {
+@media only screen and (min-width: 1024px) {
   .menu-drop {
     display: none;
   }
@@ -111,7 +111,7 @@ footer {
     font-size: 0.8rem;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    position: relative;
+    position: absolute;
     justify-content: center;
     align-items: center;
     background: rgb(20, 20, 20);
