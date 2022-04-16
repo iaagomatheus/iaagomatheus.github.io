@@ -287,6 +287,11 @@ footer {
     width: 300px;
   }
 
+  .mensagem {
+    height: 100px;
+    width: 300px;
+  }
+
   .btn-enviar {
     margin-bottom: 5px;
   }
@@ -332,7 +337,7 @@ footer {
 
   textarea {
     height: 100px;
-    width: 350px;
+    width: 200px;
   }
 
   footer {
@@ -388,6 +393,13 @@ footer {
     padding: 10px;
   }
 
+  .form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+  }
+
   .nome-sobrenome {
     flex-direction: column;
     max-width: 250px;
@@ -404,9 +416,7 @@ footer {
 
   textarea {
     height: 50px;
-    width: 250px;
-    padding-left: 10px;
-    padding-right: 20px;
+    width: 100px;
   }
 
   footer {
