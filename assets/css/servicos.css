@@ -300,6 +300,7 @@ footer {
 
   main {
     padding-top: 100px;
+    flex-direction: column;
   }
 
   .container {
@@ -330,7 +331,7 @@ footer {
     font-size: 0.8rem;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
-    position: absolute;
+    position: relative;
     justify-content: center;
     align-items: center;
     background: rgb(20, 20, 20);
