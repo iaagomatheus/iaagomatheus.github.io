@@ -122,19 +122,19 @@ footer {
 @media only screen and (max-width: 1024px) {
 
   .btn-whatsapp {
-    font-size: 3rem;
+    font-size: 1.5rem;
   }
 
   .btn-instagram {
-    font-size: 3rem;
+    font-size: 1.5rem;
   }
 
   .btn-linkedin {
-    font-size: 3rem;
+    font-size: 1.5rem;
   }
 
   .btn-github {
-    font-size: 3rem;
+    font-size: 1.5rem;
   }
 
   .menu-drop {

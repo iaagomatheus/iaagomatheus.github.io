@@ -190,25 +190,29 @@ footer {
   color: rgb(213, 213, 213);
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1024px) {
 
   .btn-whatsapp {
     padding-right: 10px;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
   }
 
   .btn-instagram {
     padding-right: 10px;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
   }
 
   .btn-linkedin {
     padding-right: 10px;
-    font-size: 1.8rem;
+    font-size: 1.3rem;
   }
 
   .btn-github {
-    font-size: 1.8rem;
+    font-size: 1.3rem;
+  }
+
+  .title {
+    font-size: 0.8rem;
   }
 
   .btn-drop {
@@ -235,25 +239,29 @@ footer {
   }
 }
 
-@media only screen and (max-width: 425px) {
+@media only screen and (max-width: 650px) {
 
   .btn-whatsapp {
     padding-right: 10px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .btn-instagram {
     padding-right: 10px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .btn-linkedin {
     padding-right: 10px;
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .btn-github {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
+  }
+
+  .title {
+    font-size: 0.8rem;
   }
 
   .btn-drop {
@@ -266,4 +274,68 @@ footer {
     height: 200px;
     width: 300px;
   }
+}
+
+@media only screen and (max-width: 420px) {
+
+  .btn-whatsapp {
+    padding-right: 10px;
+    font-size: 1.1rem;
+  }
+
+  .btn-instagram {
+    padding-right: 10px;
+    font-size: 1.1rem;
+  }
+
+  .btn-linkedin {
+    padding-right: 10px;
+    font-size: 1.1rem;
+  }
+
+  .btn-github {
+    font-size: 1.1rem;
+  }
+
+  .title {
+    font-size: 0.7rem;
+  }
+
+  .btn-drop {
+    position: absolute;
+    right: 5px;
+    padding: 5px;
+  }
+
+  img {
+    height: 200px;
+    width: 300px;
+  }
+}
+
+@media only screen and (max-width: 420px) {
+
+  .btn-whatsapp {
+    padding-right: 10px;
+    font-size: 1rem;
+  }
+
+  .btn-instagram {
+    padding-right: 10px;
+    font-size: 1rem;
+  }
+
+  .btn-linkedin {
+    padding-right: 10px;
+    font-size: 1rem;
+  }
+
+  .btn-github {
+    font-size: 1.1rem;
+  }
+
+  .title {
+    font-size: 0.7rem;
+  }
+
 }

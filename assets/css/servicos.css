@@ -133,7 +133,7 @@ main {
   flex-direction: row;
   align-items: center;
   justify-content: center;
-  padding-top: 150px;
+  padding-top: 100px;
   color: rgb(213, 213, 213);
   font-family: 'ruda-black';
 }
@@ -178,7 +178,7 @@ main {
 }
 
 .prog-title {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .prog-icon {
@@ -186,7 +186,7 @@ main {
 }
 
 .word-title {
-  font-size: 2rem;
+  font-size: 1.5rem;
 }
 
 .word-icon {
@@ -214,6 +214,25 @@ footer {
     position: absolute;
   }
 
+  .btn-whatsapp {
+    padding-right: 10px;
+    font-size: 1.2rem;
+  }
+
+  .btn-instagram {
+    padding-right: 10px;
+    font-size: 1.2rem;
+  }
+
+  .btn-linkedin {
+    padding-right: 10px;
+    font-size: 1.2rem;
+  }
+
+  .btn-github {
+    font-size: 1.2rem;
+  }
+
   main {
     padding-top: 100px;
   }
@@ -223,7 +242,7 @@ footer {
   }
 
   .prog-title {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .prog-icon {
@@ -231,7 +250,7 @@ footer {
   }
 
   .word-title {
-    font-size: 1.5rem;
+    font-size: 1.3rem;
   }
 
   .word-icon {
@@ -258,21 +277,21 @@ footer {
 
   .btn-whatsapp {
     padding-right: 10px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .btn-instagram {
     padding-right: 10px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .btn-linkedin {
     padding-right: 10px;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .btn-github {
-    font-size: 1.5rem;
+    font-size: 1.2rem;
   }
 
   .btn-drop {
