@@ -298,6 +298,12 @@ footer {
 
   }
 
+  .img-01 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
   img {
     margin-top: 15px;
     width: 350px;
@@ -440,6 +446,12 @@ footer {
   main {
     display: flex;
     flex-direction: column;
+  }
+
+  .img-01 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
   }
 
   img {
