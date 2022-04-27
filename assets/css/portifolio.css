@@ -130,6 +130,7 @@ button[name="drop"] {
   display: none;
   background-color: transparent;
   position: relative;
+  margin-top: 200px;
 }
 
 main {

@@ -47,6 +47,7 @@ button[name="drop"] {
 
 .drop-content {
   display: none;
+  margin-top: 50px;
 }
 
 .drop-content a {
