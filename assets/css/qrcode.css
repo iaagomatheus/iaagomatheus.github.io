@@ -162,3 +162,51 @@ a {
 .instagram:hover {
   background-position: 0;
 }
+
+@media screen and (max-width: 767px) {
+
+  .whatsapp {
+    font-size: 1.5rem;
+  }
+
+  .ligar {
+    font-size: 1.5rem;
+  }
+
+  .site {
+    font-size: 1.5rem;
+  }
+
+  .portifolio {
+    font-size: 1.5rem;
+  }
+
+  .instagram {
+    font-size: 1.5rem;
+  }
+
+}
+
+@media screen and (max-width: 424px) {
+
+  .whatsapp {
+    font-size: 1rem;
+  }
+
+  .ligar {
+    font-size: 1rem;
+  }
+
+  .site {
+    font-size: 1rem;
+  }
+
+  .portifolio {
+    font-size: 1rem;
+  }
+
+  .instagram {
+    font-size: 1rem;
+  }
+
+}
