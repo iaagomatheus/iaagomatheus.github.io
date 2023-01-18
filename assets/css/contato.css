@@ -321,24 +321,20 @@ footer {
 
   .nome-sobrenome {
     flex-direction: column;
-    max-width: 250px;
-    padding-left: 10px;
-    padding-right: 10px;
+    max-width: 90%;
     align-items: center;
 
   }
 
   .mail-tel {
     flex-direction: column;
-    max-width: 250px;
-    padding-left: 10px;
-    padding-right: 10px;
+    width: 90%;
     align-items: center;
   }
 
   textarea {
     height: 100px;
-    width: 200px;
+    width: 350px;
   }
 
   footer {
@@ -403,14 +399,14 @@ footer {
 
   .nome-sobrenome {
     flex-direction: column;
-    max-width: 310px;
+    max-width: 90%;
     padding-left: 10px;
     padding-right: 10px;
   }
 
   .mail-tel {
     flex-direction: column;
-    max-width: 310px;
+    max-width: 90%;
     padding-left: 10px;
     padding-right: 10px;
   }
