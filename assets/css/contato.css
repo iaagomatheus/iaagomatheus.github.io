@@ -358,7 +358,7 @@ footer {
 
 }
 
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 375px) {
 
   .btn-drop {
     right: 5px;
@@ -403,14 +403,14 @@ footer {
 
   .nome-sobrenome {
     flex-direction: column;
-    max-width: 250px;
+    max-width: 310px;
     padding-left: 10px;
     padding-right: 10px;
   }
 
   .mail-tel {
     flex-direction: column;
-    max-width: 250px;
+    max-width: 310px;
     padding-left: 10px;
     padding-right: 10px;
   }
